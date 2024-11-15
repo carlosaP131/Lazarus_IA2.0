@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="pImagen.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="18"/>
+        <UsageCount Value="61"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uimagen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmImagen"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uImagen"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="238"/>
+        <CursorPos X="12" Y="256"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uvarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uvarios"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="35"/>
+        <CursorPos X="21" Y="35"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uhistograma.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmHistograma"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Uhistograma"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="17"/>
+        <CursorPos X="71" Y="17"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="upuntuales.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uPuntuales"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="44"/>
+        <CursorPos X="102" Y="18"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufunciongama.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Frmfunciongama"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ufunciongama"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="34" Y="34"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../Documentos/906-compartido2/pIMAHistograma/uhistograma.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/lazarus/3.6.0/lcl/include/fpimagebitmap.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="123"/>
+        <CursorPos Y="141"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/lazarus/3.6.0/lcl/include/picture.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="416"/>
+        <CursorPos Y="440"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/lazarus/3.6.0/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="940"/>
+        <CursorPos X="14" Y="953"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/lazarus/3.6.0/lcl/include/menuitem.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="28" Y="63"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/lazarus/3.6.0/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="781"/>
+        <CursorPos X="14" Y="797"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus/fpc/3.2.2/source/rtl/inc/currh.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="7"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus/fpc/3.2.2/source/rtl/inc/gencurr.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="22" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ufunciongama.pas"/>
+        <Caret Line="59" Column="9" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="ufunciongama.pas"/>
+        <Caret Line="50" Column="29" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="77" Column="9" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="59" Column="83" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="243" Column="7" TopLine="231"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="71" Column="6" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="8" Column="46"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="16" Column="77"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="233" Column="50" TopLine="217"/>
+      </Position>
+      <Position>
+        <Filename Value="ufunciongama.pas"/>
+        <Caret Line="36" Column="18" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="236" Column="22" TopLine="225"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="241" Column="21" TopLine="222"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="224" Column="93" TopLine="219"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="226" Column="93" TopLine="226"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="236" Column="19" TopLine="220"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="237" Column="19" TopLine="221"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="242" Column="33" TopLine="222"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="244" Column="28" TopLine="217"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="243" Column="19" TopLine="229"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="246" Column="39" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="72" Column="7" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="55" Column="20" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="245" Column="20" TopLine="233"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="100" Column="10" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="98" Column="24" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="84" Column="5" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="63" Column="44" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="59" Column="78" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="upuntuales.pas"/>
+        <Caret Line="96" Column="43" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="uimagen.pas"/>
+        <Caret Line="254" Column="33" TopLine="238"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

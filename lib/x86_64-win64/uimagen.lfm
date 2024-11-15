@@ -1,0 +1,119 @@
+object FrmImagen: TFrmImagen
+  Left = 587
+  Height = 627
+  Top = 218
+  Width = 542
+  Caption = 'FrmImagen'
+  ClientHeight = 627
+  ClientWidth = 542
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '3.6.0.0'
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 474
+    Top = 0
+    Width = 419
+    HorzScrollBar.Page = 408
+    VertScrollBar.Page = 465
+    ClientHeight = 472
+    ClientWidth = 417
+    TabOrder = 0
+    object Image1: TImage
+      Left = -1
+      Height = 465
+      Top = 0
+      Width = 409
+    end
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 17
+    Top = 528
+    Width = 54
+    Caption = 'Umbral:'
+  end
+  object EUmbral: TEdit
+    Left = 96
+    Height = 34
+    Top = 520
+    Width = 80
+    TabOrder = 1
+  end
+  object MainMenu1: TMainMenu
+    Left = 456
+    Top = 440
+    object mnuArchivo: TMenuItem
+      Caption = 'Archivo'
+      object mAABRIR: TMenuItem
+        Caption = 'Abrir'
+        OnClick = mAABRIRClick
+      end
+      object mAGuardar: TMenuItem
+        Caption = 'Guardar'
+        OnClick = mAGuardarClick
+      end
+      object mASalir: TMenuItem
+        Caption = 'Salir'
+        OnClick = mASalirClick
+      end
+    end
+    object nmuEditar: TMenuItem
+      Caption = 'Editar'
+      object meeDeshacer: TMenuItem
+        Caption = 'Deshacer'
+        OnClick = meeDeshacerClick
+      end
+    end
+    object nmuVer: TMenuItem
+      Caption = 'Ver'
+      object mnuVImagenCompleta: TMenuItem
+        Caption = 'Imagen Completa'
+        Checked = True
+        OnClick = mnuVImagenCompletaClick
+      end
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Op. Puntules'
+      object mnuOpNegativo: TMenuItem
+        Caption = 'Negativo'
+        OnClick = mnuOpNegativoClick
+      end
+      object mnuOpGris1: TMenuItem
+        Caption = 'Gris 1'
+        OnClick = mnuOpGris1Click
+      end
+      object mnuOpgris2: TMenuItem
+        Caption = 'Gris 2'
+        OnClick = mnuOpgris2Click
+      end
+      object mnuPuntualGamma: TMenuItem
+        Caption = 'Gamma'
+        OnClick = mnuPuntualGammaClick
+      end
+      object mnuOpUmbral: TMenuItem
+        Caption = 'Umbral'
+        OnClick = mnuOpUmbralClick
+      end
+    end
+    object nmuOpRegionales: TMenuItem
+      Caption = 'Op. Regionales'
+    end
+    object nmuHerramientas: TMenuItem
+      Caption = 'Herramientas'
+      object MHHistograma: TMenuItem
+        Caption = 'Histograma'
+        OnClick = MHHistogramaClick
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 456
+    Top = 384
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 456
+    Top = 336
+  end
+end

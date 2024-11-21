@@ -15,7 +15,8 @@ uses
    procedure FPGris2(var M1: Mat3D; var M2 : Mat3D; mc,nr:Integer);
    procedure FPGamma(var M1 : Mat3D; var M2: Mat3D; mc,nr: Integer; g: real);
    procedure AplicaLut(var M1 :Mat3D; var M2: Mat3D; mc,nr: Integer; T: ArrLam);
-    procedure FPUmbral(var M1: Mat3D; var M2: Mat3D; mc, nr: Integer; sentido: Boolean; p1: Integer);
+   procedure FPUmbral(var M1: Mat3D; var M2: Mat3D; mc, nr: Integer; sentido: Boolean; p1: Integer);
+   procedure FPLogarit(var M1,M2 : Mat3D; mc,nr : integer );
 
 implementation
  var
@@ -109,7 +110,15 @@ implementation
      end;
    end;
  end;
-
+procedure FPLogarit(var M1,M2 : Mat3D; mc,nr : integer );
+var
+  k : integer;
+begin
+   SetLength(M2,mc,nr,3);
+   for k:=1 to lam do
+   tabla[k] := Round((lam/ln(lam+1))*ln(k+1));
+   AplicaLut(M1,M2,mc,nr,tabla);
+end;
 
 end.
 

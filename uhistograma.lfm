@@ -1,7 +1,7 @@
 object FrmHistograma: TFrmHistograma
-  Left = 357
+  Left = 457
   Height = 588
-  Top = 204
+  Top = 239
   Width = 788
   Caption = 'FrmHistograma'
   ClientHeight = 588

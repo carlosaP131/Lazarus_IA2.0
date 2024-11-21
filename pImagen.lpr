@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, uImagen, Uvarios, Uhistograma, uPuntuales, Ufunciongama
+  Forms, uImagen, Uvarios, Uhistograma, uPuntuales, Ufunciongama, Ucalculadora
   { you can add units after this };
 
 {$R *.res}
@@ -22,6 +22,7 @@ begin
   Application.CreateForm(TFrmImagen, FrmImagen);
   Application.CreateForm(TFrmHistograma, FrmHistograma);
   Application.CreateForm(TFrmfunciongama, Frmfunciongama);
+  Application.CreateForm(TFrmCalculadora, FrmCalculadora);
   Application.Run;
 end.
 

@@ -6,20 +6,20 @@ interface
 
 uses
   Classes, SysUtils,FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls,
-  Menus,Uvarios,Uhistograma,uPuntuales,Ufunciongama;
+  Menus,Uvarios,Uhistograma,uPuntuales,Ufunciongama,Ucalculadora;
 
 type
 
   { TFrmImagen }
 
   TFrmImagen = class(TForm)
-    EUmbral: TEdit;
     Image1: TImage;
-    Label1: TLabel;
     MainMenu1: TMainMenu;
     mAGuardar: TMenuItem;
     mASalir: TMenuItem;
     meeDeshacer: TMenuItem;
+    MHCalculadora: TMenuItem;
+    mnuOpLogaritmico: TMenuItem;
     mnuOpUmbral: TMenuItem;
     mnuPuntualGamma: TMenuItem;
     mnuVImagenCompleta: TMenuItem;
@@ -46,10 +46,12 @@ type
     procedure mASalirClick(Sender: TObject);
     procedure maaAbrirotsClick(Sender: TObject);
     procedure meeDeshacerClick(Sender: TObject);
+    procedure MHCalculadoraClick(Sender: TObject);
     procedure MHHistogramaClick(Sender: TObject);
     procedure MImagen(B:TBitmap);
     procedure mnuOpGris1Click(Sender: TObject);
     procedure mnuOpgris2Click(Sender: TObject);
+    procedure mnuOpLogaritmicoClick(Sender: TObject);
     procedure mnuOpNegativoClick(Sender: TObject);
     procedure mnuOpUmbralClick(Sender: TObject);
     procedure mnuPuntualGammaClick(Sender: TObject);
@@ -128,6 +130,11 @@ end;
 procedure TFrmImagen.meeDeshacerClick(Sender: TObject);
 begin
          RestauraEstadoImg;
+end;
+
+procedure TFrmImagen.MHCalculadoraClick(Sender: TObject);
+begin
+   FrmCalculadora.show;
 end;
 
 procedure TFrmImagen.MHHistogramaClick(Sender: TObject);
@@ -219,6 +226,16 @@ begin
    Ialto:=Bm.Height;
    BM_MAT(Bm,MTR);
    FPGris2(MTR,MRES,Iancho,Ialto);
+   MAT_BM(MRES,Bm,Iancho,Ialto);
+   MImagen(Bm);
+end;
+
+procedure TFrmImagen.mnuOpLogaritmicoClick(Sender: TObject);
+begin
+ Iancho:=Bm.Width;
+   Ialto:=Bm.Height;
+   BM_MAT(Bm,MTR);
+   FPLogarit(MTR,MRES,Iancho,Ialto);
    MAT_BM(MRES,Bm,Iancho,Ialto);
    MImagen(Bm);
 end;
